@@ -1,0 +1,33 @@
+{
+  "name": "fwsp-queuer",
+  "version": "0.0.1",
+  "description": "A module for creating and managing Redis queues",
+  "author": {
+    "name": "Carlos Justiniano",
+    "email": "carlos.justiniano@gmail.com"
+  },
+  "scripts": {
+    "test": "mocha specs --reporter spec"
+  },
+  "engines": {
+    "node": ">=6.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/flywheelsports/fwsp-queuer.git"
+  },
+  "bin": {
+    "fwsp-queuer": "index.js"
+  },
+  "homepage": "https://github.com/flywheelsports/fwsp-queuer#readme",
+  "dependencies": {
+    "bluebird": "3.4.7",
+    "fwsp-jsutils": "1.0.8",
+    "redis": "2.6.3"
+  },
+  "devDependencies": {
+    "chai": "3.5.0",
+    "eslint": "3.13.1",
+    "mocha": "3.2.0"
+  }
+}
